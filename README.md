@@ -37,3 +37,14 @@ This system is designed to:
 **Visitor Counting**: Entry and exit IR sensors increment or decrement the visitor count accordingly.
 
 **Alert System**: If someone has a high temperature, a buzzer sounds and gate remains closed.
+
+---
+## 📦 Folder Structure
+
+```bash
+.
+├── main_code/             # Arduino/ESP32 source code
+├── hardware_diagram/      # Circuit schematic or block diagram
+├── docs/                  # Report and documentation
+├── media/                 # Images or demo video of setup
+├── README.md              # Project overview and usage
