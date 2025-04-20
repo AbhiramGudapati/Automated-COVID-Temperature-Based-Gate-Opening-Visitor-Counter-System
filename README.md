@@ -39,12 +39,19 @@ This system is designed to:
 **Alert System**: If someone has a high temperature, a buzzer sounds and gate remains closed.
 
 ---
-## 📦 Folder Structure
+## 📂 Code Files
 
-```bash
-.
-├── main_code/             # Arduino/ESP32 source code
-├── hardware_diagram/      # Circuit schematic or block diagram
-├── docs/                  # Report and documentation
-├── media/                 # Images or demo video of setup
-├── README.md              # Project overview and usage
+| Component               | File                                |
+|------------------------|-------------------------------------|
+| ESP32 Blink Test        | `esp32_blink.ino`                   |
+| MLX90614 Sensor         | `mlx90614_temperature.ino`          |
+| Servo Sweep             | `servo_sweep.ino`                   |
+| Servo with Potentiometer| `servo_potentiometer.ino`          |
+| Active Buzzer           | `active_buzzer.ino`                 |
+| Passive Buzzer          | `passive_buzzer.ino`                |
+| Melody Game             | `melody_buzzer.ino`                 |
+| IR Sensor Input         | `ir_sensor.ino`                     |
+| LCD Hello World         | `lcd_hello.ino`                     |
+| LCD Custom Characters   | `lcd_custom_characters.ino`         |
+
+---
